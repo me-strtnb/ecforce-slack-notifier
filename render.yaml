@@ -4,3 +4,9 @@ services:
     env: python
     buildCommand: ""
     startCommand: "python app.py"
+    plan: free
+    envVars: []
+    autoDeploy: true
+    region: oregon
+    ports:
+      - 10000
